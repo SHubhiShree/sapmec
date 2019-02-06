@@ -1,8 +1,14 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
-    int a,b,c;
-    a=1,b=2;
-    c=a+b;
-    printf("%d",c);
+int a;
+printf("Enter the number");
+scanf("%d",&a);
+    if(a>0)
+        printf("positive");
+    else if (a<0)
+        printf("negative");
+    else if (a==0)
+        printf("Zero");
+    return 0;
 }
